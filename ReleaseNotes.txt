@@ -1,0 +1,11 @@
+Update Version 1.1.4 Features:
+- Time in Status Fix: Accurately calculate and display time in status based on the moment files move into subfolders (e.g., Storing Complete, Sent to Printer, Processing, Print Complete) rather than their original download creation time.
+- Storing Complete Card UI & Manager: Full management support for Storing Complete files with real-time status monitoring, detailed dialogs, and bulk move actions to main folder.
+
+Update Version 1.1.3 Features:
+- Strict "Document Copies" Thread Filtering: Only capture and download files that are replied directly under "Document Copies" channel posts/topics (e.g. 1).Document Copies Part-time, 2).Document Copies Full-time, 4).Document Copies Khmer, ឯកសារ). Non-document topics are automatically excluded.
+- Exact File Name Duplicate Matching: Restricted duplicate/replaced file detection to 100% exact filename match to prevent false-positives.
+- Teacher Dashboard Excel-Only Mapping: Display teacher rosters directly from Google Sheets / Excel files for FT, PT, and KH tabs.
+- Full-Time Partner Teacher Support: Support configuring partner teachers (Teacher 1 / Teacher 2) per row with token-based flexible matching (Fullname or Firstname) and week/date-range partitioning.
+- Separate Partner File Tooltips & Grade Calculation: Hovering over partner rows displays only that partner's files and calculates grades based on their specific print dates.
+- 100% Data Persistence Fix: Reliable cell edit commit and dual-location file saving on User PC.
