@@ -1,3 +1,6 @@
+Update Version 1.1.5 Features:
+- AutoUpdater Connectivity Fix: Resolves 404 remote server errors during auto-update download by using raw release asset links and User-Agent headers.
+
 Update Version 1.1.4 Features:
 - Time in Status Fix: Accurately calculate and display time in status based on the moment files move into subfolders (e.g., Storing Complete, Sent to Printer, Processing, Print Complete) rather than their original download creation time.
 - Storing Complete Card UI & Manager: Full management support for Storing Complete files with real-time status monitoring, detailed dialogs, and bulk move actions to main folder.
