@@ -1,3 +1,23 @@
+Update Version 1.1.9 Features:
+- Class Shift & Teacher Management: Added Shift classification (Morning, Afternoon, Evening, Full-time, Part-time, Khmer) and streamlined teacher shift mapping.
+- Dynamic PrintLog Status Sync: Real-time dynamic status updates in Google Sheets and Telegram Mini App for file processing, storing, and printing.
+- Date Filtering & Telegram Mini App: Introduced customizable date filtering for print tracking logs and full Telegram Mini App integration.
+- Google Drive Fetch & Downloader Optimization: Enhanced reliability and error resilience during background file downloads and Drive synchronization.
+
+Update Version 1.1.8 Features:
+- Duplicate Files Completion & Auto-Sync: Duplicate files whose originals have already reached "Print Complete" are automatically synced and altered to Print Complete without blocking completion alerts.
+- Reliable All Print Completed Alert: Ensures the "All print jobs are completed!" alert, Telegram notifications, and Auto-Shutdown trigger seamlessly regardless of which folder duplicate files are located in.
+- Enhanced Vector & Blank Page Detection: Improved blank page detection supporting vector curves, outlined Khmer fonts, and mathematical symbols.
+- Storing Fail Management: Dedicated Storing Fail manager for inspecting and re-printing failed storage files.
+
+Update Version 1.1.7 Features:
+- Fix Telegram Notification Endpoint: Fixed Telegram API URL format resolving HTTP 404 errors during automated notification delivery (Storing Completed / Sent to Printer / Print Completed).
+- Enhanced Bot Token Fallback: Seamless fallback to Tracking Bot Token across all notification methods.
+
+Update Version 1.1.6 Features:
+- Immediate Telegram Notification on Print Complete: Telegram bot sends the completion notification immediately upon batch completion without requiring the user to click OK on the alert popup.
+- Enhanced Telegram Group/Channel Delivery: Supports all chat IDs (personal and group/channel) with automatic fallback for special character formatting.
+
 Update Version 1.1.5 Features:
 - AutoUpdater Connectivity Fix: Resolves 404 remote server errors during auto-update download by using raw release asset links and User-Agent headers.
 
