@@ -1,3 +1,19 @@
+Update Version 1.1.12 Features:
+- UI & Theme Enhancements: Refined Dark and Light theme styling, modern card borders, improved action buttons, and polished DataGrid layout.
+- AutoPrint Spooling Reliability: Optimized spooler monitoring, pre-cleaning lingering splwow64 dialogs, and auto-dismissing unexpected Foxit popups/warnings so printing never blocks.
+- Storing Phase Status Tracking: Clean status tracking during machine memory storage, preventing premature status downgrades.
+- Dynamic Metadata Preservation: Ensured full preservation of parsed dynamic file information (user ID, hold name, copies) upon print completion.
+
+Update Version 1.1.11 Features:
+- Strict 100% Exact Duplicate Matching: Only files with 100% identical filenames (ignoring only .pdf and _HHmmss suffix) are treated as duplicates. Files differing by even a single character or number are strictly treated as distinct.
+- Guaranteed All Printed Files Capture: Enhanced AutoPrint tracking to immediately capture every successfully printed file into the print log even if Windows Spooler WMI events are delayed or dropped.
+- Accurate Status Management & File Relocation: Fixed file relocation so distinct files are never erroneously moved or merged when another file reaches Print Complete.
+
+Update Version 1.1.10 Features:
+- Exact Filename Watch Folder & Duplicate Matching: Strict exact filename matching prevents accidental false-positive matching across partial file names.
+- Automatic Dynamic Status Sync: Improved sync logic with Google Sheets & Telegram Mini App when files move, ensuring status updates between Pending, In Watch Folder, Processing, Storing Complete, and Printed.
+- Telegram Control & Status Parsing Refinement: Enhanced detection and separation between "💾 Storing Complete" and "✅ Printed" status alerts.
+
 Update Version 1.1.9 Features:
 - Class Shift & Teacher Management: Added Shift classification (Morning, Afternoon, Evening, Full-time, Part-time, Khmer) and streamlined teacher shift mapping.
 - Dynamic PrintLog Status Sync: Real-time dynamic status updates in Google Sheets and Telegram Mini App for file processing, storing, and printing.
