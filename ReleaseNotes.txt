@@ -1,3 +1,9 @@
+Update Version 1.1.14 Features:
+- Google Sheets Dashboard Export Direct Restore: Eliminated formula spill (#REF!) errors by utilizing direct PASTE_NORMAL restore from period templates into FT, PT, and KH tabs, ensuring immediate 100% data, grade colors, and hover note tooltips.
+- Dashboard Dynamic Dropdown Apps Script: Seamless Apps Script integration with automatic clipboard copy on export completion, allowing effortless dynamic week switching in Google Sheets.
+- Confidential BotConfig Protection: Strictly prevented Telegram Bot Token exposure by removing BotConfig export and automatically enforcing hidden sheet attributes.
+- Web Image Monitor Deep Pagination & Auto-Recovery: Traverses all monitor pages continuously and auto-recovers files from Storing Complete & Print Complete directories.
+
 Update Version 1.1.12 Features:
 - UI & Theme Enhancements: Refined Dark and Light theme styling, modern card borders, improved action buttons, and polished DataGrid layout.
 - AutoPrint Spooling Reliability: Optimized spooler monitoring, pre-cleaning lingering splwow64 dialogs, and auto-dismissing unexpected Foxit popups/warnings so printing never blocks.
