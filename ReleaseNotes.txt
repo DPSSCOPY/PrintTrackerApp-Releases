@@ -1,3 +1,9 @@
+Update Version 1.1.15 Features:
+- Web Monitor File Status Matching Overhaul: Strengthened real-time scraping matching for Ricoh Web Image Monitor, perfectly pairing User ID and Hold Print Name 1-to-1.
+- Duplicate Job Suffix Disambiguation: Intelligently matches auto-incremented hold jobs (e.g., Pre51 vs Pre5, L61 vs L6) so duplicate print jobs never get stuck at Storing Complete.
+- Dynamic Page Count & Copy Multiplier: Automatically accounts for total printed pages (Pages x Copies) during physical print completion without rejecting stored jobs.
+- Unlocked Storing-to-Print Transition: Removed legacy WebJobId lockout and relaxed time constraints, guaranteeing 100% status updates from Storing Complete to Print Complete.
+
 Update Version 1.1.14 Features:
 - Google Sheets Dashboard Export Direct Restore: Eliminated formula spill (#REF!) errors by utilizing direct PASTE_NORMAL restore from period templates into FT, PT, and KH tabs, ensuring immediate 100% data, grade colors, and hover note tooltips.
 - Dashboard Dynamic Dropdown Apps Script: Seamless Apps Script integration with automatic clipboard copy on export completion, allowing effortless dynamic week switching in Google Sheets.
